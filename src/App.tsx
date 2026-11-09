@@ -736,9 +736,6 @@ export default function App() {
               Conseil financier, audit et accompagnement stratégique au service
               d’une croissance durable.
             </p>
-            <a className="footer-link" href="#contact">
-              Planifier un échange <Icon name="arrow" size={16} />
-            </a>
           </div>
           <div>
             <h4>Navigation</h4>

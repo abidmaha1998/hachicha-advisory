@@ -165,7 +165,6 @@ footer { background: var(--dark); color: var(--white); padding: 72px 0 24px; bor
 .logo-light > span:last-child span { color: var(--green); }
 .footer-grid { display: grid; grid-template-columns: 1.7fr .75fr 1.2fr .9fr; gap: 70px; padding-bottom: 60px; }
 .footer-brand > p { margin: 23px 0; color: #929995; font-size: 12px; line-height: 1.75; max-width: 300px; }
-.footer-link { display: inline-flex; align-items: center; gap: 7px; color: var(--green); font-size: 11px; font-weight: 600; }
 .footer-grid h4 { margin: 2px 0 22px; font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: #cdd1cf; }
 .footer-grid > div:not(:first-child) a { display: block; color: #8e9591; font-size: 11px; margin-bottom: 12px; transition: color .2s; }
 .footer-grid > div:not(:first-child) a:hover { color: var(--green); }
