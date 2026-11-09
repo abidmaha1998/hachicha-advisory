@@ -1,0 +1,48 @@
+node_modules/
+dist/
+build/
+.cache/
+.env*
+.vite/
+vite.config.*.timestamp-*
+*.tsbuildinfo
+*-debug.log*
+logs/
+*.log
+.claude-replay.*
+.tmp-*
+/.figma/design-context/
+
+# Platform-managed agentplat state, not project source. In the
+# client-initiated single-repo workspace layout (make's `Path: "."` spec) the
+# repo root IS the workspace root, so these land inside this repo rather than
+# beside it.
+/.plugins/
+/.opencode-skills/
+
+# Keep the env template in the repo (the real .env files stay ignored).
+!.env.example
+
+# Secrets and credentials (never commit)
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials*.json
+
+# Local archives / exports of the project
+*.zip
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*.tmp
+
+# Claude Code local settings
+.claude/settings.local.json

@@ -1,0 +1,17 @@
+{
+  "name": "servini-contact-api",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Contact form API: sends form submissions by SMTP (Office 365) with Nodemailer.",
+  "type": "module",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "start": "node contact-server.mjs",
+    "verify-smtp": "node verify-smtp.mjs"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.16"
+  }
+}

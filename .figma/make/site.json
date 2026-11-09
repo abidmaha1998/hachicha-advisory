@@ -1,0 +1,14 @@
+{
+  "title": "HACHICHA-ADVISORY",
+  "description": "Explore HACHICHA-ADVISORY’s financial, tax, accounting, blockchain, business planning, and startup incubation services, and request a professional consultation.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  },
+  "icons": {
+    "icon": ""
+  }
+}
